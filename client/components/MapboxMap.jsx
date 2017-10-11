@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactMapboxGl, { Source, Layer, Feature } from 'react-mapbox-gl';
+import ReactMapboxGl, { ZoomControl, Source, Layer, Feature } from 'react-mapbox-gl';
 
 const RASTER_SOURCE_OPTIONS = {
   'type': 'raster',
@@ -34,7 +34,7 @@ export default class MapboxMap extends React.Component {
 
           <Source id='source_id' tileJsonSource={RASTER_SOURCE_OPTIONS} />
           <Layer type='raster' id='layer_id' sourceId='source_id' />
-
+          <ZoomControl/>
 
       </Map>
     );
