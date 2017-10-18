@@ -18,15 +18,19 @@ export default class MapboxMap extends React.Component {
           height: '100vh',
           width: '100vw'
         }}>
-        <Marker
-          coordinates={[-95.10458156746033,16.564658628571426]}
-          anchor="bottom">
-          <img src={'https://i.imgur.com/9rCpWsN.png'}/>
-        </Marker>
 
-          <RotationControl/>
+          <Marker
+            coordinates={[-95.10458156746033,16.564658628571426]}
+            anchor="bottom">
+            <img src={'https://i.imgur.com/9rCpWsN.png'}/>
+          </Marker>
+
+          <ScaleControl
+            style={{ color: '#000' }}
+          />
+          
           <ZoomControl/>
-          <ScaleControl/>
+
 
       </Map>
     );
