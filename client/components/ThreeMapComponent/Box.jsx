@@ -2,7 +2,8 @@
 
 import React from 'react';
 import config from '../../../config.json';
-import * as THREE from 'three/build/three.js';
+
+const THREE = require('three/build/three.min');
 
 export default class Box extends React.Component {
   constructor () {

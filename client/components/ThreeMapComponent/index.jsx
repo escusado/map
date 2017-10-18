@@ -1,7 +1,6 @@
 import React from 'react';
 import config from '../../../config.json';
 
-// import * as THREE from 'three/build/three.js';
 import ThreeEngine from '../lib/ThreeEngine';
 import ThreeOrbitControls from 'three-orbit-controls';
 import Box from './Box.jsx';
