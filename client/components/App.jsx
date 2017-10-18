@@ -2,6 +2,7 @@ import React from 'react';
 import Axios from 'axios';
 
 import MapboxMap from './MapboxMap.jsx';
+import ThreeMap from './ThreeMap.jsx';
 
 export default class App extends React.Component {
 
@@ -22,7 +23,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div  className="app">
-        <MapboxMap/>
+        <ThreeMap/>
       </div>
     );
   }

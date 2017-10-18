@@ -12,7 +12,7 @@ export default class MapboxMap extends React.Component {
     return (
       <Map
         style='mapbox://styles/mapbox/satellite-v9'
-        center={[-95.10458156746033,16.564658628571426]}
+        center={[-95.10458156746033,16.56465862857426]}
         zoom={[15]}
         containerStyle={{
           height: '100vh',
@@ -28,7 +28,7 @@ export default class MapboxMap extends React.Component {
           <ScaleControl
             style={{ color: '#000' }}
           />
-          
+
           <ZoomControl/>
 
 
