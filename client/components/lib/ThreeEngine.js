@@ -1,6 +1,6 @@
 'use strict';
 
-const THREE = require('../../../node_modules/three/build/three.min');
+const THREE = require('three/build/three.min');
 
 module.exports = class ThreeEngine {
   constructor(conf){
